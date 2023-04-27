@@ -94,7 +94,7 @@
 .navbar .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
-    color: #FFFFFF;
+    color: #ffa807;
     font-weight: 500;
     outline: none;
 }
@@ -181,7 +181,7 @@
 .page-header {
     padding-top: 12rem;
     padding-bottom: 6rem;
-    background: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8)), center center no-repeat;
     background-size: cover;
 }
 
@@ -446,3 +446,26 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+.box {
+    background-color: rebeccapurple;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .box:hover {
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    animation-direction: reverse;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
